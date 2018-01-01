@@ -63,3 +63,8 @@
 .main p {
   margin-bottom: 30px;
 }
+
+.skills {
+  text-align: left;
+  display: inline-flex;
+}
