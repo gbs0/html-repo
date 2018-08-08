@@ -1,0 +1,18 @@
+/* -- Import Components -- */
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/dropdown.css");
+
+
+body {	
+	background: #E3E3E3;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bolder;
+	font-size: 22px;
+}
+
+.container {
+	padding: 50px;
+}
