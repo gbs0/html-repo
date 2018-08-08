@@ -39,6 +39,9 @@ Description: We use content models to make newer web elements from HTML5 convent
  
     `<article>, <aside>, <nav>, <section>`
 
+### Common Html Page Structure:
+>Description providing HTML Methods
+
 ![HTML example page](https://api.sololearn.com/DownloadFile?id=2471)
 
 

@@ -1,0 +1,88 @@
+body {
+/*	background-color: rgb(7,111,208); 
+background-image: -webkit-linear-gradient(top, rgb(7,111,208), rgb(45,52,115));
+background-image:    -moz-linear-gradient(top, rgb(7,111,208), rgb(45,52,115));
+background-image:      -o-linear-gradient(top, rgb(7,111,208), rgb(45,52,115));
+background-image:         linear-gradient(to bottom, rgb(7,111,208), rgb(45,52,115));
+*/
+	background: #5f2c82; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #49a09d, #5f2c82); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #49a09d, #5f2c82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  font-family: Helvetica;
+  font-size: 18px;
+
+}
+h1{
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+	font-weight: : lighter;
+	font-size: 26px;
+}
+
+p{
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	font-weight: lighter;
+}
+
+h2{
+	font-family: 'Helvetica', sans-serif;
+	color: white;
+	font-weight: lighter;
+	font-size: 18px;
+}
+
+a {
+	color: #F78F1E;
+}
+a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+#banner{
+	text-align: center;
+	/*background-image: url(https://static.pexels.com/photos/7376/startup-photos.jpg);*/
+	background-image: url(https://static.pexels.com/photos/9374/lights-night-lens-blur.jpg);
+	background-size: cover;
+	padding: 90px;
+	columns: : white;
+	text-shadow: 1px 1px 5px black;
+}
+
+#banner h1{
+	color: white;
+	font-size: 46px;
+	opacity: 0.9;
+}
+
+#banner p{
+	color: white;
+	opacity: 0.8;
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+#footer{ 
+	padding: 30px;
+	background: rgb(50,50,50);
+	opacity: 0.8;
+	color: lightgrey;
+}
+
+#footer p {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	font-size: 22px;
+}
+
+.card{
+	padding: 50px;
+	font-weight: lighter;
+}
+
+#hire-me {
+	font-size: 26px;
+	font-family: 'Poppins', sans-serif; 
+}
