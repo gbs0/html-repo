@@ -7,12 +7,18 @@
 
 
 body {	
-	background: #E3E3E3;
-	font-family: 'Poppins', sans-serif;
-	font-weight: bolder;
+	background: #FFFFFF;
+	font-family: 'Lato', sans-serif;
+	/*font-family: 'Poppins', sans-serif;*/
+	/*font-weight: bolder;*/
 	font-size: 22px;
 }
 
 .container {
 	padding: 50px;
+}
+
+#title {
+	/*padding: 20px;*/
+	padding-bottom: 20px;
 }

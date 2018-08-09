@@ -1,4 +1,12 @@
 .badge {
-	border-radius: 50%;
+	line-height: 20px !important;
+	width: 20px !important;
+	position: relative !important;
+	top: -15px !important;
+	left: -15px !important;
+	border-radius: 50% !important;
+}
+
+.badge:first-child {
 	
 }
