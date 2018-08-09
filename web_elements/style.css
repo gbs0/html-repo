@@ -6,6 +6,13 @@
 @import url("components/dropdown.css");
 
 
+
+h1 {
+	/*padding: 100px;*/
+	padding-top: 50px;
+	font-weight: bolder; 
+}
+
 body {	
 	background: #FFFFFF;
 	font-family: 'Lato', sans-serif;
@@ -20,5 +27,7 @@ body {
 
 #title {
 	/*padding: 20px;*/
+	/*padding-top: 20px;*/
 	padding-bottom: 20px;
+
 }
