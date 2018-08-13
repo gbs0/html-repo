@@ -15,7 +15,7 @@ h1 {
 }
 
 body {	
-	background: #FFFFFF;
+	background: #e8e8e8;
 	font-family: 'Lato', sans-serif;
 	/*font-family: 'Poppins', sans-serif;*/
 	/*font-weight: bolder;*/
@@ -24,6 +24,8 @@ body {
 
 .container {
 	padding: 50px;
+	background: #FFFFFF;
+
 }
 
 #title {
