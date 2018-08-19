@@ -6,7 +6,7 @@
 
 body {
 	height: 100vh;
-	background: #060AB2;
+	background: #EAE7E7;
 }
 
 .card-section {
@@ -37,7 +37,7 @@ body {
  	padding: 20px;
  	position: absolute;
  	border-radius: 5px;
- 	background: #1C7CCC;
+ 	background: #FF9900;
  }
 
 img {
