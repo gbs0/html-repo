@@ -43,3 +43,12 @@ body {
 img {
 	width: 100px;
 }
+
+.front-face {	
+	transform: rotateY(180deg);
+}
+
+/*
+.back-face {
+	transform: rotateX(90deg);
+}*/
