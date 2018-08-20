@@ -1,10 +1,12 @@
-const cards = document.querySelectorAll('.element-card');
+const cards = document.querySelectorAll('.each-element-card');
 
 let hasFlippedCard = false;
 let firstCard, secondCard;
 
 function flipCard() {
-	this.classList.toggle('flip');
+	if (this == firstCard) return;
+
+	this.classList.add('flip');
 } else {
 	// First Click
 	hasFlippedCard = true;

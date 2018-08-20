@@ -45,9 +45,9 @@ body {
  	height: 100%;
  	padding: 20px;
  	position: absolute;
- 	border-radius: 5px;
+ 	border-radius: 10px;
  	background: #FF9900;
- 	/*backface-visibility: hidden;*/
+ 	backface-visibility: hidden;
  }
 
 /*Debug for img size*/
