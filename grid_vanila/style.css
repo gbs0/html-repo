@@ -10,7 +10,7 @@ body {
 	background: #EAE7E7;
 }
 
-.card-section {
+.all-card-section {
 	width: 640px;
 	height: 640px;
 	margin: auto;
@@ -19,7 +19,7 @@ body {
 	perspective: 1000px;
 }
 
-.element-card {
+.each-element-card {
 	width: calc(25% - 10px);
 	height: calc(33.333% - 10px);
 	margin: 5px;
@@ -30,10 +30,15 @@ body {
 	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
 
-.element-card :active {
+.each-element-card :active {
 	transform: scale(0.97);
 	transition: transform .2s;
 }
+
+.each-element-card.flip {
+	transform:  rotateY(180deg);
+}
+
  .front-face,
  .back-face {
  	width: 100%;
@@ -44,7 +49,7 @@ body {
  	background: #FF9900;
  	/*backface-visibility: hidden;*/
  }
- 
+
 /*Debug for img size*/
 /*img {
 	width: 100px;
