@@ -10,13 +10,13 @@ function flipCard() {
 
 	if (!hasFlippedCard) {
 		hasFlippedCard = true;
-		firstCard = this;
+		// firstCard = this;
 
 		return;
 	}
 
 	//second click
-	secondCard = this;
+	// secondCard = this;
 } 
 
 // Operations in array
