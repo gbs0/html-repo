@@ -10,14 +10,21 @@ function flipCard() {
 
 	if (!hasFlippedCard) {
 		hasFlippedCard = true;
-		// firstCard = this;
+		firstCard = this;
 
 		return;
 	}
 
 	//second click
-	// secondCard = this;
+	secondCard = this;
 } 
+
+// function unflipCards() {
+// 	firstCard.classList.remove('flip');
+// 	secondCard.classList.remove('flip');
+// }
+
+
 
 // Operations in array
 // cards.for (var i = 0; i < Things.length; i++) {
