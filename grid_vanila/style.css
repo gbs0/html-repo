@@ -28,7 +28,8 @@ body {
 	transform-style: preserve-3d;
 	transition: transform .5s;
 	/*background: #FF9900;*/
-	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+	/*box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);*/
+	/*box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);*/
 }
 
 .each-element-card :active {
