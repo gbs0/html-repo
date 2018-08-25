@@ -18,6 +18,41 @@
   overflow:scroll
 }
 
+#li_scroll {
+  text-decoration: none;
+  font: 24px helvetica, arial, sans-serif;
+  border-bottom: 1px solid #999;
+}
+
+#li_scroll:first-child {
+  border-top: 1px solid #999;
+}
+
+#li_scroll a {
+  text-decoration:none;
+  color: #999;
+  display: block;
+  width: 200px;
+  height: 40px;
+	line-height: 40px;
+  
+  /* transitions and animations */
+  -webkit-transition: font-size 0.3s ease, background-color 1s ease;
+  -moz-transition: font-size 0.3s ease, background-color 1s ease;
+  -ms-transition: font-size 0.3s ease, background-color 1s ease;
+  -o-transition: font-size 0.3s ease, background-color 1s ease;
+  transition: font-size 0.3s ease, background-color 1s ease;
+}
+
+#li_scroll a:hover {
+  font: 26px helvetica, arial, sans-serif;
+  line-height: 40px;
+  text-decoration: none;
+  color: #999;
+  background: #e3e3e3;
+}
+
+
 @media(device-width: 768px) and (device-height: 1024px){
     ::-webkit-scrollbar {
         -webkit-appearance: none;
