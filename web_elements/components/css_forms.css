@@ -1,0 +1,10 @@
+.ui-underline{
+    border: none;
+    border-bottom: 1px solid #BBB;
+    outline: none;
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+    color: #555;
+}
