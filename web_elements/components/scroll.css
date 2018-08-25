@@ -1,8 +1,11 @@
+.h2 {
+	padding-bottom:20px;
+}
 
 #scroll_div {
 	padding:10px;
 	margin:20px;
-	border:2px solid #CCC;
+	border:2px solid #e8e8e8;
 	border-radius:10px;
 	width:250px;
 	height:290px;
