@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+	<!-- Importing javascript metadados -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link href="style.css" rel="stylesheet">
+	
+	<!-- Importing favicon icon --> 
+	<head profile="http://www.w3.org/2005/10/profile">
+	<link rel="icon" 
+	type="image/png"
+	width = "20"
+	height="auto"
+	href="https://cdn3.iconfinder.com/data/icons/logos-brands-3/24/logo_brand_brands_logos_sketch_app-512.png">
+	<title>Web Elements</title>
+
+
+</head>	
+<body>
+
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+      			<a class="navbar-brand" href="#">WebSiteName</a>
+    		</div>
+    		<ul class="nav navbar-nav">
+      			<li class="active"><a href="#">Home</a></li>
+      			<li><a href="#">Link</a></li>
+      			<li><a href="#">Link</a></li>
+    		</ul>
+      		<button class="btn btn-danger navbar-btn">Button</button>
+  		</div>
+	</nav>
+
+  		<h2>Navbar Button</h2>
+  		<p>Use the navbar-btn class on a button to vertically align (same padding as links) it inside the navbar.</p>
+	
+	<div class="container">
+		<h2 id="title">Banner</h2>
+		<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('https://kitt.lewagon.com/placeholder/cities/berlin');">
+			<div class="banner-content">
+				<h1>Voyage pur Berlin</h1>
+				<p>Achete une ticket par Berlin</p>
+				<a class="btn btn-primary btn-lg"> Start now</a>
+			</div>	
+	</div>
+
+
+	<div>	
+		<h2 id="title">Cards</h2>
+		<div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/shanghai');">
+			<div class="card-category">Popular</div>
+				<div class="card-description">
+					<h2>LeWagon Shangai</h2>
+					<p>Trés beaucou ville</p>
+				</div>
+			<!-- <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/tgenaitay"> -->
+	</div>
+
+	<div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/berlin');">
+		<div class="card-category">Popular</div>
+			<div class="card-description">
+				<h2>LeWagon Shangai</h2>
+				<p>Trés beaucou ville</p>
+			</div>
+			</div>			
+	</div>
+
+ 	<!-- Avatar design -->
+	<div>
+		<div class="" id="elements">
+			<h2 id="title">Avatar Design</h2>
+			<img src="https://www.fillmurray.com/100/100" class="avatar-large">
+			<img src="https://www.fillmurray.com/50/50" class="avatar-small">
+			<img src="https://www.fillmurray.com/g/50/50" class="avatar-bordered">
+		</div>
+	</div>
+
+	<div class="">
+		<h2 id="title">Badge Design</h2>
+		<img src="https://www.fillmurray.com/100/100" class="avatar-large">
+		<span class=""></span>
+	</div>
+
+	<div class="">
+		<h2 id="title">Buttons</h2>
+		<a href="#" class="btn-medium">Write a Story</a>
+		<a href="#" class="btn-treehouse">Start Now</a>
+	</div>
+
+	<div class="">
+	<h2 class="scroll">Scroll Boxes</h2>
+	<div class="scroll" id="scroll_div">
+		  Text Informations<br>
+		  <ul id="ul_scroll"><li id="li_scroll">Scroll Down</li><br></ul>
+		  <ul id="ul_scroll"><li id="li_scroll">Scroll Down</li><br></ul>
+		  <ul id="ul_scroll"><li id="li_scroll">Scroll Down</li><br></ul>
+		  <ul id="ul_scroll"><li id="li_scroll">Scroll Down</li><br></ul>
+		  <ul id="ul_scroll"><li id="li_scroll">Scroll Down</li><br></ul> 
+	</div>
+
+	<div class="scroll" id="scroll_div_minor">
+		<h3 class="scroll">Opções</h3>
+		<ul id="ul_scroll"><li id="li_scroll"><a href="#">Zurich</a></ul></li>
+	    <ul id="ul_scroll"><li id="li_scroll"><a href="#">Paris</a></li></ul>
+	    <ul id="ul_scroll"><li id="li_scroll"><a href="#">Prague</a></li></ul>
+	    <ul id="ul_scroll"><li id="li_scroll"><a href="#">Barcelona</a></li></ul>
+	    <ul id="ul_scroll"><li id="li_scroll"><a href="#">Rome</a></li></ul>
+	    <ul id="ul_scroll"><li id="li_scroll"><a href="#">Montreal</a></li></ul>
+	    <ul id="ul_scroll"><li id="li_scroll"><a href="#">Marseille</a></li></ul>
+	</div>
+	</div>
+
+	<div class="">
+		<h2 id="title">Pure CSS Forms</h2>
+		
+	</div>
+
+
+
+<!-- Issued Dropdown button;
+	<div class="container">
+		<div class="dropdown">
+			<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true">Dropdown</button>
+		<div class="dropdown-menu">
+			<a class="dropdown-item" href="#">Action</a>
+		    <a class="dropdown-item" href="#">Another action</a>
+		    <a class="dropdown-item" href="#">Something else here</a>
+		</div>
+		</div>
+	</div>
+-->
+
+<!-- 
+	 Geometric Animation 
+	<div class="layer-animation">
+		<div class="Animation">
+		</div>
+	</div> -->
+	<!-- 
+	<div class="footer"  >
+		<div class="footer-links">
+		    <a href="#"><i class="fa fa-github"></i></a>
+		    <a href="#"><i class="fa fa-instagram"></i></a>
+		    <a href="#"><i class="fa fa-facebook"></i></a>
+		    <a href="#"><i class="fa fa-twitter"></i></a>
+		    <a href="#"><i class="fa fa-linkedin"></i></a>
+		</div>
+
+		<div class="footer-copyright">
+		  This footer is made with <i class="fa fa-heart"></i> at Le Wagon
+		</div>
+	</div> 
+	-->
+
+</body>
+</html>

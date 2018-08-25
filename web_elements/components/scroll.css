@@ -21,6 +21,7 @@
 	text-align:center;
 	line-height:2
 	cursor: ns-resize;
+	background-color: #EFECEC;
 }
 
 #scroll_div_minor {
@@ -33,7 +34,7 @@
 	float:left;
 	text-align:left;
 	line-height:2
-	
+
 }
 
 #ul_scroll {
