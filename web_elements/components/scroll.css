@@ -2,6 +2,14 @@
 	padding-bottom:20px;
 }
 
+.h3 {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 22px;
+  color: #000;
+  text-align: center !important;
+}
+
+
 #scroll_div {
 	padding:10px;
 	margin:20px;
@@ -14,27 +22,47 @@
 	line-height:2
 }
 
+#scroll_div_minor {
+	padding:10px;
+	margin:20px;
+	border:2px solid #e8e8e8;
+	border-radius:5px;
+	width:200px;
+	height:290px;
+	float:left;
+	text-align:left;
+	line-height:2
+}
+
+#ul_scroll {
+  list-style: none;
+  /*width:200px;*/
+  margin: 0;
+  padding: 0;
+}
+
 .scroll {
   overflow:scroll
 }
 
 #li_scroll {
   text-decoration: none;
-  font: 24px helvetica, arial, sans-serif;
-  border-bottom: 1px solid #999;
+  font: 20px helvetica, arial, sans-serif;
+  /*border-bottom: 1px solid #999;*/
 }
 
 #li_scroll:first-child {
-  border-top: 1px solid #999;
+  border-top: 2px solid #EFECEC;
 }
 
 #li_scroll a {
   text-decoration:none;
-  color: #999;
+  /*color: #62929A;*/
+  /*color: #5C5757;*/
   display: block;
   width: 200px;
   height: 40px;
-	line-height: 40px;
+  line-height: 40px;
   
   /* transitions and animations */
   -webkit-transition: font-size 0.3s ease, background-color 1s ease;
@@ -48,8 +76,8 @@
   font: 26px helvetica, arial, sans-serif;
   line-height: 40px;
   text-decoration: none;
-  color: #999;
-  background: #e3e3e3;
+  color: #000;
+  background: #EFECEC;
 }
 
 
