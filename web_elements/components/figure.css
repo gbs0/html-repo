@@ -3,3 +3,13 @@
   --main-color: rgba(60, 124, 251, .3);
 }
 
+.square {
+	width: 100px;
+	height: 150px;
+	background-color: var(--main-color);
+}
+.rectangle {
+  width: 150px;
+  height: 100px;
+  background: var(--main-color);
+}
