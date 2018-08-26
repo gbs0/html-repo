@@ -1,0 +1,5 @@
+@use postcss-cssnext;
+:root {
+  --main-color: rgba(60, 124, 251, .3);
+}
+
