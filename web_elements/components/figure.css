@@ -28,12 +28,20 @@
   margin-right: 20px;
 }
 
-.heart {
+.door {
   width: 60px;
   height: 100px;
   /*transform: rotate(-45deg);*/
   border-radius: 30px 30px 0 0;
   background: var(--main-color);
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.triangle {
+  border-bottom: 100px solid var(--main-color);
+  border-right: 60px solid transparent;
+  border-left: 60px solid transparent;
   margin-right: 20px;
   display: inline-block;
 }
