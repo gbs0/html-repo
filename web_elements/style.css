@@ -26,10 +26,13 @@ body {
 }
 
 .container {
-	padding: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 	background: #FFFFFF;
-	margin-right: auto;
-	margin-right: auto;
+	/*margin-right: auto;*/
+	/*margin-right: auto;*/
 	width: 100vh-50px;
 	/*shape-margin: 30px;*/
 
