@@ -1,4 +1,4 @@
-.princing-table {
+.pricing-table {
 	margin: 60px auto;
 }
 
@@ -8,7 +8,7 @@
 	clear: both;
 }
 
-.princing-table > div {
+.pricing-table > div {
 	display: block;
 	float: left;
 	width: 48%;
