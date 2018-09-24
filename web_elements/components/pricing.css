@@ -16,3 +16,13 @@
 	background-color: #fff;
 	color: #555;
 }
+/* Passing an antribute for princing table child, BUT NOT the last one */
+.pricing-table > div:not(:last-child) {
+	margin-right: 2%;
+}
+
+.pricing-box {
+	text-align: center;
+	border-radius: 5px;
+	overflow: hidden;
+}
