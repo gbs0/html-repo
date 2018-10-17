@@ -1,0 +1,9 @@
+/* With HTML main tag*/ 
+.layout1 main { 
+	display: flex;
+	flex-direction: row;
+}
+
+.layout1 article {
+	flex: 1 80%; /* Align with same space between elements in the container */
+}
