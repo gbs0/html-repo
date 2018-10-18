@@ -1,0 +1,9 @@
+/* Your tabs CSS code here */
+.tabs {
+  display: flex;
+  text-decoration: none;
+}
+
+.tabs-active {
+
+}
