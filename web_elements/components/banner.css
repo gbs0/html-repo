@@ -1,3 +1,5 @@
+/* For gradient :
+linear-gradient(angle, start_color start_point, end_color end_point)*/
 .banner {
 	color: white;
 	text-align: center;
