@@ -5,6 +5,7 @@
 /* Importing layouts */
 @import url("layouts/dashboard.css");
 @import url("layouts/buttom.css");
+@import url("layouts/animate.min.css");
 
 body {
   margin: 0;
