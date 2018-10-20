@@ -1,8 +1,8 @@
 .dashboard {
   display: grid;
   grid-template-columns: calc(70vh + 10px);
-  grid-template-rows: 50% 25% 25%;
-  height: calc(100vh - 110px);
+  grid-template-rows: 280px 200px 25% 280px 280px 25%;
+  height: calc(100vh - 80px);
   margin-top: 20px;
 }
 .dashboard .main {
