@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>gbs</title>
     <link rel="stylesheet" href="style.css">
@@ -17,7 +17,7 @@
     <div class="navbar-minimal" >
       <!-- Importing logo -->
       <!--img src="images/logo.png" -->
-      <i class="fab fa-goodreads"></i>
+      <i class="fab fa-goodreads" id="icon"></i>
     </div>
 
   
@@ -27,30 +27,33 @@
         <div class="dashboard-card main">
           <div class="dashboard-card-content">
             <img src="" alt="" width="150" class="img-circle">
-            <h1 class="animated infinite bounce delay-2s">492</h1>
             <h2 class="animate zoomOutDown delay-2s">Gabriel Schiavo</h2>
             <p id = "first-child">UX Designer & Developer aspirant. Get your shell aboard and let's code, allez-y! Feel free to contact me:</p>
-            <a href="#" class="btn btn-two" class="animated zoomOutDown delay-2s">Me mande um oi!</a>
+            <a href="#" class="btn btn-two">Me mande um oi!</a>
           </div>
         </div>
         <div class="dashboard-card stat">
           <div class="dashboard-card-content">
-            <h2 class="animated infinite bounce delay-3.5s">492</h2>
-            <h3>492</h3>
+            <h2 class="animated infinite bounce duration-5s delay-3.5s">492</h2>
+            <!-- <h3>492</h3> -->
             <p>contribuições</p>
           </div>
         </div>
         <div class="dashboard-card stat">
           <div class="dashboard-card-content">
-            <h3>9</h3>
-            <p>seguidores</p>
+            <ul>
+              <li><a href="">Item 1</a></li>
+              <li><a href="">Item 1</a></li>
+              <li><a href="">Item 1</a></li>
+            </ul> 
           </div>
         </div>
         <div class="dashboard-card description">
           <div class="dashboard-card-content">
-            <h3>Mais sobre Gabriel</h3>
+            <i class="fas fa-id-badge" id="icon"></i>
+            <h4>Mais sobre Gabriel</h4>
             <p class="text-justify">
-              I am a full-stack developer with 9 years of experience working in startups.
+              UX Designer & Full Stack Dev looking for stick a piece of code anywhere I could.
             </p>
           </div>
         </div>
