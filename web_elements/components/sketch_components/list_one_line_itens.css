@@ -1,0 +1,24 @@
+/* row bounds: */
+/* Single-line item: */
+.list-items {
+  font-family: .SFNSText;
+  font-size: 16px;
+  color: rgba(0,0,0,0.87);
+  text-align: left;
+  line-height: 24px;
+}
+/* Rectangle-path: */
+.checkbox {
+  background: rgba(0,0,0,0.26);
+}
+
+/* Oval: */
+.list_avatars {
+  background: rgba(0,0,0,0.26);
+}
+
+/* row bounds: */
+
+
+
+

@@ -17,28 +17,51 @@
   background: white;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
   padding: 10px;
-  margin: 15px;
+  margin: 5px;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
+.graphchart {
+    /*margin-bottom: 10px;*/
+    resize: 20px;
+  }
+
 #hero {
   height: 55vh;
 }
 
+#hero-button {
+  align-content: center;
+}
+
+#linechart {
+  grid-row: 2 / span 2;
+
+}
+
+#options-menu {
+  text-align: center;
+  align-self: center;
+}
 
 #toolbar {
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
   position: sticky;
   height: 80px;
 }
+
 @media (max-width: 992px) {
   .dashboard {
     display: block;
   }
+
+
+
 }
+
 
 /* Fonts and colors */
 .dashboard h2 {

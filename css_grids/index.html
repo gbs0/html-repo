@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Dashboard</title>
@@ -11,14 +13,14 @@
   <body>
 
     <div class="navbar-minimal">
+      <i class="fas fa-globe-africa" id="logo-navbar"></i>
       <!-- Importing logo -->
       <!--img src="images/logo.png" -->
     </div>
     <div class="dashboard-card main" id="hero">
           <div class="dashboard-card" id="toolbar">
             <img src="" alt="" width="150" class="img-circle">
-            <h2>Gepeto Schiavo</h2>
-            <a href="#" class="btn btn-primary btn-lg">Me ligue</a>
+            <a href="#" class="btn btn-primary btn-lg" id="hero-button">Call to Action</a>
           </div>
         </div>
 
@@ -32,12 +34,52 @@
             <a href="#" class="btn btn-primary btn-lg">Me ligue</a>
           </div>
         </div>-->
-      
+
         <div class="dashboard">
-        <div class="dashboard-card stat">
+        <div class="dashboard-card stat" id="linechart">
           <div class="dashboard-card-content">
-            <h3>92</h3>
-            <p>contribuições</p>
+            <canvas id="line-chart" class="graphchart" height="350"></canvas>
+              <script>
+                new Chart(document.getElementById("line-chart"), {
+                  type: 'line',
+                  data: {
+                    labels: [1500,1600,1700,1750,1800,1850,1900,1950,1999,2050],
+                    datasets: [{
+                        data: [86,114,106,106,107,111,133,221,783,2478],
+                        label: "Maio",
+                        borderColor: "#3e95cd",
+                        fill: false
+                      }, {
+                        data: [282,350,411,502,635,809,947,1402,3700,5267],
+                        label: "Junho",
+                        borderColor: "#8e5ea2",
+                        fill: false
+                      }, {
+                        data: [168,170,178,190,203,276,408,547,675,734],
+                        label: "Julho",
+                        borderColor: "#3cba9f",
+                        fill: false
+                      }, {
+                        data: [40,20,10,16,24,38,74,167,508,784],
+                        label: "Lola",
+                        borderColor: "#e8c3b9",
+                        fill: false
+                      }, {
+                        data: [6,3,2,2,7,26,82,172,312,433],
+                        label: "Agosto",
+                        borderColor: "#c45850",
+                        fill: false
+                      }
+                    ]
+                  },
+                  options: {
+                    title: {
+                      display: true,
+                      // text: 'World population per region (in millions)'
+                    }
+                  }
+                });
+              </script>
           </div>
         </div>
         <div class="dashboard-card stat">
@@ -48,8 +90,13 @@
         </div>
         <div class="dashboard-card stat">
           <div class="dashboard-card-content">
-            <h3>5</h3>
-            <p>seguidores</p>
+            <div class="scroll" id="options-menu">
+              <ul><li id="li_scroll"><a href="#">Paris</a></li></ul>
+              <ul><li id="li_scroll"><a href="#">Prague</a></li></ul>
+              <ul><li id="li_scroll"><a href="#">Barcelona</a></li></ul>
+              <ul><li id="li_scroll"><a href="#">Rome</a></li></ul>
+              <ul><li id="li_scroll"><a href="#">Montreal</a></li></ul>
+          </div>
           </div>
         </div>
         <div class="dashboard-card stat">
