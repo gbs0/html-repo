@@ -1,0 +1,28 @@
+#You need to write a YAML file in the /data folder:
+# team.yml
+#romain:
+#  role: COO
+#  avatar: romain.jpg
+#boris:
+#  role: CEO
+#  avatar: boris.jpg
+#sebastien:
+#  role: CTO
+#  avatar: seb.jpg
+team = { "romain"    => { "role"   => "COO",
+                       "avatar" => "romain.jpg" },
+      "boris"     => { "role"   => "CEO",
+                       "avatar" => "boris.jpg" },
+      "sebastien" => { "role"   => "CTO",
+                       "avatar" => "seb.jpg" }
+    }
+
+data.team
+
+# => { "romain"    => { "role"   => "COO",
+#                       "avatar" => "romain.jpg" },
+#      "boris"     => { "role"   => "CEO",
+#                       "avatar" => "boris.jpg" },
+#      "sebastien" => { "role"   => "CTO",
+#                       "avatar" => "seb.jpg" }
+#    }

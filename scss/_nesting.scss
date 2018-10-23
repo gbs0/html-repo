@@ -1,0 +1,23 @@
+/* Nesting Example */
+#banner {
+  background: image-url('background.jpg');
+  padding: 100px;
+  text-align: center;
+  h1 {
+    font-family: "Open sans";
+    color: red;
+  }
+  p {
+    color: gray;
+  }
+}
+
+/* Hover Example */
+a {
+  color: $red;
+  &:hover {
+    color: $yellow;
+  }
+}
+
+
