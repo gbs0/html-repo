@@ -1,6 +1,7 @@
 const batch = 182; // change to your own batch id
 const baseUrl = "https://wagon-chat.herokuapp.com/";
 const messageBox = document.getElementById("comment-form");
+const messagesList = document.getElementById("messages");
 console.log(messageBox);
 // Your turn to code!
 
@@ -12,5 +13,5 @@ messageBox.addEventListener("submit", (event) => {
   const userName = document.getElementById("your-name").value;
   console.log(userName);
   // Add a messagem in the HMTL ul
-  message.insertAdjacentHTML("beforeend", `<li>${userMessage}(posted <span class="date">10 minutes ago</span>) by ${userName}</li>`);
+  messagesList.insertAdjacentHTML("beforeend", `<li>${userMessage}(posted <span class="date">10 minutes ago</span>) by ${userName}</li>`);
 });
