@@ -1,7 +1,7 @@
 const batch = 182; // change to your own batch id
 const baseUrl = "https://wagon-chat.herokuapp.com/";
 const messageBox = document.getElementById("comment-form");
-const messagesList = document.getElementById("messages");
+const messagesList = document.querySelector(".list-unstyled");
 console.log(messageBox);
 // Your turn to code!
 
