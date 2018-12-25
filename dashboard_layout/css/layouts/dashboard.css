@@ -5,8 +5,6 @@
   height: calc(100vh - 110px);
   margin-top: 20px;
 }
-
-
 .dashboard .main {
   grid-row: 1 / span 2;
   grid-column: 1 / span 1;
