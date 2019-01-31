@@ -19,9 +19,7 @@ body {
   font-weight: 300;
   background-color: #f4f4f4;
 }
-p {
-  font-weight: lighter;
-}
+
 h1, h2, h3 {
   font-family: 'Nunito', sans-serif;
   font-weight: bold;
@@ -35,6 +33,10 @@ h2 {
 }
 h3 {
   font-size: 23px;
+}
+h5 {
+  font-weight: 400 !important;
+
 }
 
 .navbar-minimal {
@@ -50,3 +52,10 @@ h3 {
   height: 50px;
 }
 
+#icon {
+  font-size: 40px;
+}
+
+#icon-about {
+  font-size: 30px;
+}
