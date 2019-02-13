@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
+}
+body {
+  font-size: 18px;
+  font-family: Lato;
+  font-weight: 300;
+  line-height: 1.5;
+  padding-bottom: 100px;
+  background: #ededed;
+}
+h1 {
+  margin: 0 0 18px;
+  font-size: 40px;
+  font-weight: 600;
+  -webkit-animation: slideIn 1s ease forwards;
+  animation: slideIn 1s ease forwards;
+}
+.container {
+  width: 800px;
+  max-width: 90%;
+  margin: 50px auto;
+}
+/* Animations */
+p {
+  opacity: 0;
+  margin: 25px 0 0;
+}
+p.col {
+  font-size: 14px;
+  width: 49%;
+  float: left;
+  margin-right: 2%;
+  margin-bottom: 10px;
+}
+.paraFadeIn {
+  -webkit-animation: slideIn 0.8s ease 0.3s forwards;
+  animation: slideIn 0.8s ease 0.3s forwards;
+}
+@-webkit-keyframes slideIn {
+  0% {
+    -webkit-transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slideIn {
+  0% {
+    -webkit-transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    opacity: 1;
+  }
+}
