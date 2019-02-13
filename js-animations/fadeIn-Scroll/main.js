@@ -1,4 +1,4 @@
-var $paragraph =  $("p");
+let $paragraph =  $("p");
 
 $(window).scroll(function () {
     $paragraph.each(function () {
