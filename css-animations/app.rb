@@ -8,9 +8,10 @@ DB = SQLite3::Database.new(File.join(File.dirname(__FILE__), 'db/jukebox.sqlite'
 
 get "/" do
   # TODO: Gather all artists to be displayed on home page
-  @names = DB.execute("SELECT name, id FROM artists").sort
-  erb :home # Will render views/home.erb file (embedded in layout.erb)
+  erb :ball # Will render views/home.erb file (embedded in layout.erb)
 end
+
+=begin
 
 get "/artists/:id" do
   DB.results_as_hash = false
@@ -49,3 +50,4 @@ end
 # 1. Create an artist page with all the albums. Display genres as well
 # 2. Create an album pages with all the tracks
 # 3. Create a track page with all the track info
+=end
